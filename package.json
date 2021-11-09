@@ -1,0 +1,32 @@
+{
+  "name": "koa-test-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christian102094/koa-test-1.git"
+  },
+  "keywords": [],
+  "author": "Christian Tapia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christian102094/koa-test-1/issues"
+  },
+  "homepage": "https://github.com/christian102094/koa-test-1#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-ejs": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^10.1.1"
+  }
+}
